@@ -28,13 +28,38 @@ input{
 
 #menu ul{
     margin: 0;
+    padding: 0;
 }
 #menu ul li{
     font-family: Poppins;
     text-align: center;
-    list-style-type: none;
-    border-top:4px solid red;
-    
+    list-style-type: none; 
+    padding: 1em;   
+}
+
+#menu ul li:nth-child(1){
+    border-top:4px solid #E1493E;
+    border-bottom: 4px solid #8ABA56;
+}
+
+#menu ul li:nth-child(2){
+
+    border-bottom: 4px solid #5B4282;
+}
+
+#menu ul li:nth-child(3){
+
+    border-bottom: 4px solid #FF8932;
+}
+
+#menu ul li:nth-child(4){
+
+    border-bottom: 4px solid #19B6E9;
+}
+
+#menu ul li:nth-child(5){
+
+    border-bottom: 4px solid #E84C8B;
 }
 
 #menu ul li a:visited,a{

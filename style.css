@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+a:hover{
+background-color:#2A2F33;
+color: white;
+}
+
+header:first-of-type{
+    background-color: #046DD5;
+    font-family:Poppins;
+    padding: 1em;
+    color: white;
+}
+
+header:first-of-type a{
+    color: white;
+    text-decoration: none;
+}
+
+#signup a:nth-of-type(1){
+    border-right: 2px solid white;
+    margin-right:5px;
+    padding-right: 1em;
+}
+
+input{
+       display:none;
+}
+
+#menu ul{
+    margin: 0;
+}
+#menu ul li{
+    font-family: Poppins;
+    text-align: center;
+    list-style-type: none;
+    border-top:4px solid red;
+    
+}
+
+#menu ul li a:visited,a{
+   text-decoration: none;
+   color: black;
+}

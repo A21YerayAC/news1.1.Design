@@ -11,6 +11,10 @@ header:first-of-type{
     color: white;
 }
 
+article p{
+    padding-left: 1em;
+}
+
 header:first-of-type a{
     color: white;
     text-decoration: none;
@@ -97,9 +101,6 @@ img{
 
 section footer{
     background-color: #F4655F;
-    padding: 1em;
-    color:white;
-    font-family: Poppins;
 }
 
 footer{
